@@ -39,7 +39,7 @@ You can find a demo here: https://hours.webdoodle.com.au/buyte/
 Use `.env.example` to create a `.env` file.
 Here you can configure your Airtable Settings and provider your public functions/backend URL.
 
-You can find an example Airtable base here:
+You can find an example Airtable base here: https://airtable.com/shr1N9EQKedRgVSGn
 
 The stack includes: 
 - Frontend: React
