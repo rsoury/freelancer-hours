@@ -1,0 +1,76 @@
+{
+	"name": "brighte-doodle-hours",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "rescripts start",
+		"start:lambda": "nodemon --exec \"NODE_ENV=development sls offline\"",
+		"build": "run-p build:**",
+		"build:app": "rescripts build",
+		"test": "rescripts test --colors --verbose --no-cache",
+		"eject": "react-scripts eject",
+		"format": "./node_modules/.bin/prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+	},
+	"dependencies": {
+		"airtable": "^0.6.0",
+		"axios": "^0.19.0",
+		"axios-retry": "^3.1.2",
+		"cors": "^2.8.5",
+		"detect-browser": "^4.5.1",
+		"es6-promise": "^4.2.8",
+		"evergreen-ui": "^4.8.0",
+		"express": "^4.17.1",
+		"is-email": "^1.0.0",
+		"lodash.get": "^4.4.2",
+		"lodash.memoize": "^4.1.2",
+		"lodash.set": "^4.3.2",
+		"lodash.snakecase": "^4.1.1",
+		"lodash.startcase": "^4.4.0",
+		"mdn-polyfills": "^5.17.0",
+		"path-parser": "^4.2.0",
+		"pino": "^5.13.2",
+		"pino-express": "^1.1.1",
+		"raf": "^3.4.1",
+		"rc-slider": "^8.6.11",
+		"react": "^16.8.6",
+		"react-app-polyfill": "^1.0.1",
+		"react-dom": "^16.8.6",
+		"react-helmet": "^5.2.1",
+		"react-scripts": "3.0.1",
+		"serverless-http": "^2.0.2",
+		"url-search-params-polyfill": "^6.0.0"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.4.5",
+		"@rescripts/cli": "0.0.10",
+		"@rescripts/rescript-use-babel-config": "0.0.8",
+		"@rescripts/utilities": "^0.0.5",
+		"aws-sdk": "^2.489.0",
+		"dotenv-webpack": "^1.7.0",
+		"husky": "2.3.0",
+		"lint-staged": "^8.1.0",
+		"nodemon": "^1.19.2",
+		"npm-run-all": "^4.1.5",
+		"postcss-flexibility": "^2.0.0",
+		"prettier": "^1.15.3",
+		"serverless-dotenv-plugin": "^2.1.1",
+		"serverless-offline": "^5.10.1",
+		"serverless-plugin-include-dependencies": "^3.2.1"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all",
+			"ie >= 9"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

@@ -1,0 +1,3 @@
+[data-evergreen-toaster-container] [data-state="entered"] {
+    display: block !important;
+}
