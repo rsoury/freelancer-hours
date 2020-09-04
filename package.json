@@ -12,7 +12,7 @@
 		"format": "./node_modules/.bin/prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
 	},
 	"dependencies": {
-		"airtable": "^0.6.0",
+		"airtable": "^0.7.2",
 		"axios": "^0.19.0",
 		"axios-retry": "^3.1.2",
 		"cors": "^2.8.5",
